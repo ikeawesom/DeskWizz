@@ -8,3 +8,33 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+body {
+  background: linear-gradient(to top left, #ffc64a98, #ffc7c7a7, #b3faffd0);
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 1rem 3rem;
+}
+
+.nav-title .title {
+  transition: 200ms transform ease-in-out;
+}
+.nav-title:hover .title {
+  transform: translateX(10%);
+}
+
+.github-link .contribute {
+  transition: 200ms ease-in-out;
+}
+.github-link:hover .contribute {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.github-link img {
+  transition: 200ms ease-in-out;
+}
+.github-link:hover img {
+  filter: brightness(1.3);
+}
